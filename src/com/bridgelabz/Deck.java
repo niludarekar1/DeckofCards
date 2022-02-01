@@ -19,6 +19,7 @@ public class Deck {
             }
         }
     }
+    //This is Card drawFromDeck
 
     public Card drawFromDeck(){
         Random generator = new Random();

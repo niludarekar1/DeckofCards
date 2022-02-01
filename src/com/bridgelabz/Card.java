@@ -10,7 +10,7 @@ public class Card {
         this.number=Cardnumber;
         this.colors=Cardcolors;
     }
-
+  //This is Method toString Override
     public @Override String toString(){
         return Number[number] + " of " + Colors[colors];
     }
